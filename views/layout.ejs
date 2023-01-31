@@ -1,0 +1,29 @@
+<!-- views/layout.ejs -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frank Miller</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+
+  </head>
+  <body>
+    <nav class="topNav">
+      <a class="home-logo" href="#">Frank Miller</a>
+
+        <div class="topMenu">
+          <a class="topMenu-home" href="/">Home</a>
+          <a class="topMenu-about" href="/about">About</a>
+          <a class="topMenu-work" href="/works">Work</a>
+          <a class="topMenu-gallery" href="/gallery">Gallery</a>
+
+        </div>
+    </nav>
+ 
+    <main>
+    <%= body %>
+    </main>
+ 
+  </body>
+</html>
